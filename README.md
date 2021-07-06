@@ -21,7 +21,7 @@ npm install --global aes-enc-js
 ```
 
 ## Usage
-To include decrypter on your website or npm application, use any of the following methods.
+To include aes-enc-js on your website or npm application, use any of the following methods.
 ```js
 const { encrypt, decrypt } =  require("aes-enc-js");
 const T = "This text is going to encrypt.";
@@ -30,6 +30,21 @@ const D = decrypt(E);
 console.log("ORIGINAL TEXT IS "+ T);
 console.log("ENCRPYTED TEXT IS " + E);
 console.log("DECRPYTED TEXT IS " + D);
+```
+## ES6
+```js
+import { encrypt, decrypt } =  "aes-enc-js";
+const T = "This text is going to encrypt.";
+const E = encrypt(T);
+const D = decrypt(E);
+console.log("ORIGINAL TEXT IS "+ T);
+console.log("ENCRPYTED TEXT IS " + E);
+console.log("DECRPYTED TEXT IS " + D);
+```
+
+Change secret key from index.js file.
+```js
+const K = "4951882490015028";
 ```
 ## [License](LICENSE)
 Apache-2.0. Copyright (c) Arsalan Akhtar, Inc.

@@ -1,6 +1,6 @@
 {
     "name": "aes-enc-js",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "AES encryption with crypto-JS. Stored secret key in and you in entire application ",
     "main": "index.js",
     "scripts": {

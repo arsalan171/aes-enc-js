@@ -1,0 +1,30 @@
+{
+    "name": "aes-enc-js",
+    "version": "1.0.0",
+    "description": "AES encryption with crypto-JS. Stored secret key in and you in entire application ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arsalan171/aes-crypto.git"
+    },
+    "keywords": [
+        "AES",
+        "AES Crypto JS Library",
+        "AES-encryption",
+        "encryption",
+        "crypto",
+        "crypto-js"
+    ],
+    "author": "Arsalan Akhtar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/arsalan171/aes-crypto/issues"
+    },
+    "homepage": "https://github.com/arsalan171/aes-crypto#readme",
+    "dependencies": {
+        "crypto-js": "^4.0.0"
+    }
+}

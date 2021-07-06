@@ -1,9 +1,5 @@
 # aes-enc-js
 
-[![Build Status](https://travis-ci.org/videojs/aes-enc-js.svg?branch=master)](https://travis-ci.org/videojs/aes-enc-js)
-[![Greenkeeper badge](https://badges.greenkeeper.io/videojs/aes-decrypter.svg)](https://greenkeeper.io/)
-[![Slack Status](http://slack.videojs.com/badge.svg)](http://slack.videojs.com)
-
 [![NPM](https://nodei.co/npm/aes-enc-js.png?downloads=true&downloadRank=true)](https://nodei.co/npm/aes-enc-js/)
 
 - [Installation](#installation)

@@ -33,5 +33,5 @@ console.log("ENCRPYTED TEXT IS " + E);
 console.log("DECRPYTED TEXT IS " + D);
 ```
 ## [License](LICENSE)
-Apache-2.0. Copyright (c) Brightcove, Inc.
+Apache-2.0. Copyright (c) Arsalan Akhtar, Inc.
 

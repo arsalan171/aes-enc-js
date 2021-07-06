@@ -22,18 +22,17 @@ npm install --global aes-enc-js
 
 ## Usage
 To include aes-enc-js on your website or npm application, use any of the following methods.
+
+## ES5
 ```js
 const { encrypt, decrypt } =  require("aes-enc-js");
-const T = "This text is going to encrypt.";
-const E = encrypt(T);
-const D = decrypt(E);
-console.log("ORIGINAL TEXT IS "+ T);
-console.log("ENCRPYTED TEXT IS " + E);
-console.log("DECRPYTED TEXT IS " + D);
 ```
 ## ES6
 ```js
 import { encrypt, decrypt } =  "aes-enc-js";
+```
+
+```js
 const T = "This text is going to encrypt.";
 const E = encrypt(T);
 const D = decrypt(E);
@@ -41,7 +40,6 @@ console.log("ORIGINAL TEXT IS "+ T);
 console.log("ENCRPYTED TEXT IS " + E);
 console.log("DECRPYTED TEXT IS " + D);
 ```
-
 Change secret key from index.js file.
 ```js
 const K = "4951882490015028";

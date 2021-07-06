@@ -10,7 +10,6 @@
 - [Usage](#usage)
 - [License](#license)
 
-## Description
 ## Installation
 
 ```sh
